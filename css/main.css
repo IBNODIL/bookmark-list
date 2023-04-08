@@ -37,6 +37,11 @@ main img{
   margin: 20px;
 }
 
+main img:hover{
+  height: 90vh;
+  width: auto;
+}
+
 footer{
   height: 200px;
   color: white;
