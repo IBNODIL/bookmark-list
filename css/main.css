@@ -33,6 +33,15 @@ main{
 main img{
   border: 5px solid black;
   border-radius: 10px;
-  width: 60px;
+  width: 80px;
   margin: 20px;
+}
+
+footer{
+  height: 200px;
+  color: white;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
