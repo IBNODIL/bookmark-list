@@ -1,0 +1,38 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  padding: 30px;
+  background-color: #228be6;
+}
+
+header{
+  border-radius: 20px;
+  background-color: #fab005;
+  padding: 20px;
+}
+
+h1{
+  margin: 20px;
+}
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+main{
+  margin: 50px;
+}
+
+main img{
+  border: 5px solid black;
+  border-radius: 10px;
+  width: 60px;
+  margin: 20px;
+}
