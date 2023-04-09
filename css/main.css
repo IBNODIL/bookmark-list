@@ -5,18 +5,26 @@
 }
 
 .container{
-  padding: 30px;
-  background-color: #228be6;
+  background-color: #43e622;
 }
 
 header{
-  border-radius: 20px;
   background-color: #fab005;
   padding: 20px;
+  display: flex;
+}
+
+header img{
+  width: 30vw;
 }
 
 h1{
-  margin: 20px;
+  margin: 50px;
+  color: #000;
+}
+
+h1:hover{
+  transform: scale(1.1);
 }
 
 .cards{
@@ -35,6 +43,13 @@ main img{
   border-radius: 10px;
   width: 80px;
   margin: 20px;
+  transition: 0.2s all linear;
+  box-shadow: 5px 0 10px 2px #555;
+}
+
+main img:hover{
+  border: 5px solid #fff;
+  transform: scale(1.2);
 }
 
 footer{
