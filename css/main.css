@@ -65,4 +65,8 @@ footer{
   header{
     flex-direction: column;
   }
+
+  header img{
+    width: 90vw;
+  }
 }
