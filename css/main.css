@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+body{
+  position: relative;
+}
+
 .container{
   background-color: #43e622;
 }
@@ -63,6 +67,34 @@ footer{
   justify-content: center;
 }
 
+
+.download{
+  height: 50px;
+  width: 50px;
+  background-color: #fff;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+}
+
+a{
+  color: black;
+}
+
+.download:hover{
+  background-color:#000;
+  box-shadow: 0 0 10px white;
+}
+
+.download:hover a{
+  color: #fff;
+}
+
 @media (max-width: 1000px){
   header{
     flex-direction: column;
@@ -70,5 +102,10 @@ footer{
 
   header img{
     width: 90vw;
+  }
+
+  .download{
+    bottom: 20px;
+    right: 15px;
   }
 }
