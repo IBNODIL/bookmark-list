@@ -24,7 +24,7 @@ h1{
 }
 
 h1:hover{
-  transform: scale(1.1);
+  color: white;
 }
 
 .cards{
@@ -59,4 +59,10 @@ footer{
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media (max-width: 1000px){
+  header{
+    flex-direction: column;
+  }
 }
